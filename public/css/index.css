@@ -1,14 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style type="text/css">
-        * {
+  * {
         margin: 0;
         padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
         }
         .ad{
             text-align: center;
@@ -23,6 +21,23 @@
            margin: 0 auto;
            /* margin-top: -5px; */
            
+        }
+        .navbar .top_navbar {
+            width: 1190px;
+            margin: 0 auto;
+        }
+        .navbar .top_navbar a{
+            float: right;
+            background-color: pink;
+            color: #ccc;
+            padding: 15px 10px;
+        }
+        .navbar .top_navbar a:last-of-type{
+            float: left;
+            position: relative;
+            left: 210px;
+            background-color: black;
+            behavior:url('PIE/PIE.htc');
         }
         .middle{
             width: 1190px;
@@ -62,27 +77,14 @@
             background-color:orange;
             float: right;
         }
-    </style>
-</head>
-<body>
-    <div class="ad">
-        <img src="image/ad.jpg" alt="广告">
-    </div>
-    <div class="navbar">
-        <div class="top_navbar">
 
-        </div>
-    </div>
-    <div class="middle">
-        
-        <div class="left_navbar"></div>
-        <div class="right_navbar"></div>
-        <div class="middle_content">
-            <div class="middle_top"></div>
-            <div class="middle_bottom"></div>
-    </div>
-        
-        
-    </div>
-</body>
-</html>
+
+        #test {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #999;
+            -webkit-border-radius: 50px;
+            -moz-border-radius: 50px;
+            border-radius: 50px;
+            /* behavior:url('PIE/PIE.htc'); */
+}
