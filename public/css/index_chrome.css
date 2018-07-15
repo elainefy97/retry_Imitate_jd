@@ -22,6 +22,7 @@
        /* margin-top: -5px; */
        overflow: hidden;
        
+       
     }
     .navbar .top_navbar {
         width: 1190px;
@@ -318,3 +319,12 @@
     
 
 
+    #test {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #999;
+        border-radius: 50px;
+         behavior:url('../ie/PIE.htc');
+         
+         
+}
