@@ -1,0 +1,18 @@
+.navbar .top_navbar>ul>li>a{
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 56px;
+    width: 90px;
+    height:inherit;
+    box-sizing: border-box;
+    color: #aaaaaa;
+    padding: 10px 10px;
+    font-size: 13px;
+    position: relative;
+    z-index:2;
+ 
+    
+  
+   
+}
