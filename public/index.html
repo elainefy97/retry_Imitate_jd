@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,233 +10,1050 @@
     <link href="https://cdn.bootcss.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/indexie8+.css">
     <script src="https://cdn.bootcss.com/jquery/1.9.0/jquery.js"></script>
-<script src="ie/mootools.js" type="text/javascript"></script>
+    <script src="ie/mootools.js" type="text/javascript"></script>
 
-<!--[if gte IE8]>
-<link href="https://cdn.bootcss.com/font-awesome/3.2.1/css/font-awesome-ie7.css" rel="stylesheet">
+    <!--[if (gte IE 8)|!(IE)]>
+     <link href="https://cdn.bootcss.com/font-awesome/3.2.1/css/font-awesome-ie7.css" rel="stylesheet">
+    <script src="ie/mootools.js" type="text/javascript"></script>
    <script src="ie/selectivizr.js" type="text/javascript"></script>
-   <link rel="stylesheet" href="css/indexie8+.css">
    <script src="https://cdn.bootcss.com/jquery/1.9.0/jquery.js"></script>
+   <script src="ie/mootools.js" type="text/javascript"></script>
+   <link rel="stylesheet" href="css/indexie8+.css">
+   <script>
+    console.log('ie9+');
+</script>
+   
    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
 
-<!--[if (IE 6)|(IE 7)]>
+    <!--[if lte IE 7]>
+
 <link href="https://cdn.bootcss.com/font-awesome/3.2.1/css/font-awesome-ie7.css" rel="stylesheet">
+   <script src="ie/mootools.js" type="text/javascript"></script>
    <script src="ie/selectivizr.js" type="text/javascript"></script>
-   <link rel="stylesheet" href="css/indexie7-.css">
    <script src="https://cdn.bootcss.com/jquery/1.9.0/jquery.js"></script>
-   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+   <link rel="stylesheet" href="css/indexie7-.css">
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script>
+    console.log('ie7');
+</script>
 <![endif]-->
 
 
 
     <style type="text/css">
-
     </style>
 </head>
+
 <body>
-        
+
     <div class="ad">
         <img src="image/ad.jpg" alt="广告">
     </div>
     <div class="navbar">
-      
-            
-       
-        
-        
+
+
+
+
+
         <div class="top_navbar">
             <ul>
-                <li><a href="" >手机京东</a></li><span class="nav_space"></span>
-                <li><a href="" class="active">网站导航<i class="fa icon-angle-down" ></i></a>
+                <li>
+                    <a href="">手机京东</a>
+                </li>
+                <span class="nav_space"></span>
+                <li>
+                    <a href="" class="active">网站导航
+                        <i class="fa icon-angle-down"></i>
+                    </a>
                     <div class="showWebnav showNav" onmouseover="showNav(comshop,comshopNav)" onmouseout="hideNav(comshop,comshopNav)">
-                            <ul>
-                                <li><a href="">京东试用</a></li>
-                                <li><a href="">京东金融</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="">全球售</a></li>
-                                <li><a href="">国际站</a></li>
-                            </ul>
+                        <ul>
+                            <li>
+                                <a href="">京东试用</a>
+                            </li>
+                            <li>
+                                <a href="">京东金融</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">全球售</a>
+                            </li>
+                            <li>
+                                <a href="">国际站</a>
+                            </li>
+                        </ul>
                     </div>
-                </li><span class="nav_space"></span>
-                <li><a href="" class="active">客户服务<i class="fa icon-angle-down" ></i></a>
+                </li>
+                <span class="nav_space"></span>
+                <li>
+                    <a href="" class="active">客户服务
+                        <i class="fa icon-angle-down"></i>
+                    </a>
                     <div class="showClientserver showNav" onmouseover="showNav(comshop,comshopNav)" onmouseout="hideNav(comshop,comshopNav)">
-                            <ul>
-                                <li><a href="">帮助中心</a></li>
-                                <li><a href="">售后服务</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="">在线客服</a></li>
-                                <li><a href="">意见建议</a></li>
-                            </ul>
-                    </div>    
-                </li><span class="nav_space"></span>
-                <li><a href="" class="active">企业采购<i class="fa icon-angle-down" ></i></a>
-                    <div class="showComshop showNav" onmouseover="showNav(comshop,comshopNav)" onmouseout="hideNav(comshop,comshopNav)">
-                            <ul>
-                                <li><a href="">企业购</a></li>
-                                <li><a href="">工业品</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="">商用场景馆</a></li>
-                                <li><a href="">礼品卡</a></li>
-                            </ul>
+                        <ul>
+                            <li>
+                                <a href="">帮助中心</a>
+                            </li>
+                            <li>
+                                <a href="">售后服务</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">在线客服</a>
+                            </li>
+                            <li>
+                                <a href="">意见建议</a>
+                            </li>
+                        </ul>
                     </div>
-                </li><span class="nav_space"></span>
-                <li><a href="" class="active">我的京东<i class="fa icon-angle-down"></i></a>
+                </li>
+                <span class="nav_space"></span>
+                <li>
+                    <a href="" class="active">企业采购
+                        <i class="fa icon-angle-down"></i>
+                    </a>
+                    <div class="showComshop showNav" onmouseover="showNav(comshop,comshopNav)" onmouseout="hideNav(comshop,comshopNav)">
+                        <ul>
+                            <li>
+                                <a href="">企业购</a>
+                            </li>
+                            <li>
+                                <a href="">工业品</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">商用场景馆</a>
+                            </li>
+                            <li>
+                                <a href="">礼品卡</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <span class="nav_space"></span>
+                <li>
+                    <a href="" class="active">我的京东
+                        <i class="fa icon-angle-down"></i>
+                    </a>
                     <div class="showMyjd showNav" onmouseover="showNav(myjd,myjdNav)" onmouseout="hideNav(myjd,myjdNav)">
-                            <ul>
-                               
-                                <li><a href="">待处理订单</a> </li>
-                                <li><a href="">降级商品</a> </li>
-                                <li><a href="">退换货</a>  </li>
-                            </ul>
-                            <ul>
-                                <li><a href="">我的问答</a></li>
-                                <li><a href="">我的关注</a></li>
-                                <li><a href="">我的白条</a></li>
-                            </ul> 
-                        </div>
-                </li><span class="nav_space"></span>
-                <li><a href="">我的订单</a></li><span class="nav_space"></span>
-                <li><a href="" >你好，请登录 <span>免费注册</span></a></li>
-                <li><a href="" class="active">北京</a>  
+                        <ul>
+
+                            <li>
+                                <a href="">待处理订单</a>
+                            </li>
+                            <li>
+                                <a href="">降级商品</a>
+                            </li>
+                            <li>
+                                <a href="">退换货</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">我的问答</a>
+                            </li>
+                            <li>
+                                <a href="">我的关注</a>
+                            </li>
+                            <li>
+                                <a href="">我的白条</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <span class="nav_space"></span>
+                <li>
+                    <a href="">我的订单</a>
+                </li>
+                <span class="nav_space"></span>
+                <li>
+                    <a href="">你好，请登录
+                        <span>免费注册</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="active">北京</a>
                     <div class="showBeijing showNav" onmouseover="showNav(beijing,beijingNav)" onmouseout="hideNav(beijing,beijingNav)">
                         <ul>
-                            <li><a href="">北京</a></li>
-                            <li><a href="">上海</a></li>
-                            <li><a href="">武汉</a></li>
-                            <li><a href="">南京</a></li>
+                            <li>
+                                <a href="">北京</a>
+                            </li>
+                            <li>
+                                <a href="">上海</a>
+                            </li>
+                            <li>
+                                <a href="">武汉</a>
+                            </li>
+                            <li>
+                                <a href="">南京</a>
+                            </li>
                         </ul>
                         <ul>
-                            <li><a href="">广东</a></li>
-                            <li><a href="">天津</a></li>
-                            <li><a href="">天津</a></li>
-                            <li><a href="">天津</a></li>
+                            <li>
+                                <a href="">广东</a>
+                            </li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
                         </ul>
                         <ul>
-                            <li><a href="">天津</a></li>
-                            <li><a href="">天津</a></li>
-                            <li><a href="">天津</a></li>
-                            <li><a href="">天津</a></li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
                         </ul>
                         <ul>
-                            <li><a href="">天津</a></li>
-                            <li><a href="">天津</a></li>
-                            <li><a href="">天津</a></li>
-                            <li><a href="">天津</a></li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
+                            <li>
+                                <a href="">天津</a>
+                            </li>
                         </ul>
-                        
-            </div></li>
+
+                    </div>
+                </li>
             </ul>
-  
+
         </div>
 
-        
+
     </div>
     <div class="middle">
-        
+
         <div class="left_navbarContent">
             <div class="head"></div>
             <div class="head_underline"></div>
             <div class="left_navbar">
-                <ul>
-                    <li><a href="">家用电器</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">家用电器</a>
+                    </li>
+                    <li><div class="showLeft_navbar showLeft_navbar1">
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                    </div></li>
+                    
+
 
                 </ul>
-                <ul>
-                    <li><a href="">手机</a></li><span>/</span>
-                    <li><a href="">运营商</a></li><span>/</span>
-                    <li><a href="">数码</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">手机</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">运营商</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">数码</a>
+                    </li>
+                    <li><div class="showLeft_navbar showLeft_navbar2">
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">电视
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">曲面电视</a>
+                            </li>
+                            <li>
+                                <a href="">超薄电视</a>
+                            </li>
+                            <li>
+                                <a href="">HDR电视</a>
+                            </li>
+                            <li>
+                                <a href="">OLED电视</a>
+                            </li>
+                            <li>
+                                <a href="">4K超清电视</a>
+                            </li>
+                            <li>
+                                <a href="">人工智能电视</a>
+                            </li>
+                            <li>
+                                <a href="">55英寸</a>
+                            </li>
+                        </ul>
+                    </div></li>
+                    
+
                 </ul>
-                <ul>
-                    <li><a href="">电脑</a></li><span>/</span>
-                    <li><a href="">办公</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">电脑</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">办公</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">家居</a></li><span>/</span>
-                    <li><a href="">家具</a></li><span>/</span>
-                    <li><a href="">家装</a></li><span>/</span>
-                    <li><a href="">厨具</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">家居</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">家具</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">家装</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">厨具</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">男装</a></li><span>/</span>
-                    <li><a href="">女装</a></li><span>/</span>
-                    <li><a href="">童装</a></li><span>/</span>
-                    <li><a href="">内衣</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">男装</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">女装</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">童装</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">内衣</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">美妆</a></li><span>/</span>
-                    <li><a href="">个护清洁</a></li><span>/</span>
-                    <li><a href="">宠物</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">美妆</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">个护清洁</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">宠物</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">女鞋</a></li><span>/</span>
-                    <li><a href="">箱包</a></li><span>/</span>
-                    <li><a href="">钟表</a></li><span>/</span>
-                    <li><a href="">珠宝</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">女鞋</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">箱包</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">钟表</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">珠宝</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">男鞋</a></li><span>/</span>
-                    <li><a href="">运动</a></li><span>/</span>
-                    <li><a href="">户外</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">男鞋</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">运动</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">户外</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">房产</a></li><span>/</span>
-                    <li><a href="">汽车</a></li><span>/</span>
-                    <li><a href="">汽车用品</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">房产</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">汽车</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">汽车用品</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">母婴</a></li><span>/</span>
-                    <li><a href="">玩具乐器</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">母婴</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">玩具乐器</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">食品</a></li><span>/</span>
-                    <li><a href="">酒类</a></li><span>/</span>
-                    <li><a href="">生鲜</a></li><span>/</span>
-                    <li><a href="">特产</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">食品</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">酒类</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">生鲜</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">特产</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">艺术</a></li><span>/</span>
-                    <li><a href="">礼品鲜花</a></li><span>/</span>
-                    <li><a href="">绿植</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">艺术</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">礼品鲜花</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">绿植</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">医药保健</a></li><span>/</span>
-                    <li><a href="">计生情趣</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">医药保健</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">计生情趣</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">图书</a></li><span>/</span>
-                    <li><a href="">音像</a></li><span>/</span>
-                    <li><a href="">电子书</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">图书</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">音像</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">电子书</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">机票</a></li><span>/</span>
-                    <li><a href="">酒店</a></li><span>/</span>
-                    <li><a href="">旅游</a></li><span>/</span>
-                    <li><a href="">生活</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">机票</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">酒店</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">旅游</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">生活</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">理财</a></li><span>/</span>
-                    <li><a href="">众筹</a></li><span>/</span>
-                    <li><a href="">白条</a></li><span>/</span>
-                    <li><a href="">保险</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">理财</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">众筹</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">白条</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">保险</a>
+                    </li>
                 </ul>
-                <ul>
-                    <li><a href="">安装</a></li><span>/</span>
-                    <li><a href="">维修</a></li><span>/</span>
-                    <li><a href="">清洗保养</a></li>
+                <ul class="show">
+                    <li>
+                        <a href="">安装</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">维修</a>
+                    </li>
+                    <span>/</span>
+                    <li>
+                        <a href="">清洗保养</a>
+                    </li>
                 </ul>
+
             </div>
         </div>
-        
+
         <div class="middle_content">
             <div class="middle_top">
                 <div class="part1">
                     <div class="search">
                         <input type="text">
-                        
+
                     </div>
                     <div class="cart"></div>
                     <div class="erwei"></div>
@@ -280,11 +1098,11 @@
                 <div class="right_navbar">
                     <div class="head">
                         <div class="headPic">
-                            <img src="image/no_login.jpg" alt="">
+                            <img src="image/no_login.jpg" alt="" id="myAwesomeElement">
                         </div>
-                        
+
                         <div class="huanying">
-                            <div>HI~欢迎来到京东</div> 
+                            <div>HI~欢迎来到京东</div>
                             <div>
                                 <a href="">登录</a>
                                 <a href="">注册</a>
@@ -293,24 +1111,24 @@
                                 <a href="">新人福利</a>
                                 <a href="">PLUS会员</a>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="board">
                         <div class="board_nav">
-                                <a href="">促销</a>
-                                <a href="">公告</a>
-                                <span></span>
-                                <a href="">更多</a>
+                            <a href="">促销</a>
+                            <a href="">公告</a>
+                            <span></span>
+                            <a href="">更多</a>
                         </div>
-                       
+
                         <ul>
                             <li>京东1111京东1111</li>
                             <li>京东1111京东1111</li>
                             <li>京东1111京东1111</li>
                             <li>京东1111京东1111</li>
                         </ul>
-    
+
                         <ul>
                             <li>京东2222京东2222</li>
                             <li>京东2222京东2222</li>
@@ -320,58 +1138,150 @@
                     </div>
                     <div class="space_hr"></div>
                     <div class="picNav">
-                    <ul>
-                        <li><i class="fa icon-glass"></i><a href="">购买</a></li>
-                        <li><i class="fa icon-envelope-alt"></i><a href="">骑行</a></li>
-                        <li><i class="fa icon-star-empty"></i><a href="">医疗</a></li>
-                        <li><i class="fa  icon-th-large"></i><a href="">平衡</a></li>
-                    </ul>
-                    <ul>
-                            <li><i class="fa icon-ok"></i><a href="">铃声</a></li>
-                            <li><i class="fa icon-zoom-out"></i><a href="">计算</a></li>
-                            <li><i class="fa icon-flag"></i><a href="">剪刀</a></li>
-                            <li><i class="fa icon-camera"></i><a href="">分割</a></li>
-                    </ul>
-                    <ul>
-                            <li><i class="fa icon-headphones"></i><a href="">建筑</a></li>
-                            <li><i class="fa icon-music"></i><a href="">文件</a></li>
-                            <li><i class="fa icon-heart"></i><a href="">二维</a></li>
-                            <li><i class="fa icon-bookmark"></i><a href="">圆心</a></li>
-                    </ul>
-                        
-                    
+                        <ul>
+                            <li>
+                                <i class="fa icon-glass"></i>
+                                <a href="">购买</a>
+                            </li>
+                            <li>
+                                <i class="fa icon-envelope-alt"></i>
+                                <a href="">骑行</a>
+                            </li>
+                            <li>
+                                <i class="fa icon-star-empty"></i>
+                                <a href="">医疗</a>
+                            </li>
+                            <li>
+                                <i class="fa  icon-th-large"></i>
+                                <a href="">平衡</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <i class="fa icon-ok"></i>
+                                <a href="">铃声</a>
+                            </li>
+                            <li>
+                                <i class="fa icon-zoom-out"></i>
+                                <a href="">计算</a>
+                            </li>
+                            <li>
+                                <i class="fa icon-flag"></i>
+                                <a href="">剪刀</a>
+                            </li>
+                            <li>
+                                <i class="fa icon-camera"></i>
+                                <a href="">分割</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <i class="fa icon-headphones"></i>
+                                <a href="">建筑</a>
+                            </li>
+                            <li>
+                                <i class="fa icon-music"></i>
+                                <a href="">文件</a>
+                            </li>
+                            <li>
+                                <i class="fa icon-heart"></i>
+                                <a href="">二维</a>
+                            </li>
+                            <li>
+                                <i class="fa icon-bookmark"></i>
+                                <a href="">圆心</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
                 </div>
-                </div>
-            </div>  
-            
+            </div>
+
         </div>
-   </div>
+    </div>
 
-   
-        
-        
-  
 
- 
+
+
+
+
+
 </body>
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('.top_navbar>ul>li').mouseover(function(){
-            console.log('1');
-            $(this).children("div").css('display','block');
-            $(this).children("a.active").css('border','1px solid #ccc');
-            $(this).children("a.active").css('border-bottom','white');
-            $(this).children("a.active").css('background-color','white');
-        })
-        $('.top_navbar>ul>li').mouseout(function(){
-            console.log('1');
-            $(this).children("div").css('display','none');
-            $(this).children("a.active").css('border','none');
-   
-            $(this).children("a.active").css('background-color','');
-        })
-});
+    $(document).ready(function () {
+        
+        $('.top_navbar>ul>li').mouseover(function () {
 
+            $(this).children("div").css('display', 'block');
+            $(this).children("a.active").css('border', '1px solid #ccc');
+            $(this).children("a.active").css('border-bottom', 'white');
+            $(this).children("a.active").css('background-color', 'white');
+        })
+        $('.top_navbar>ul>li').mouseout(function () {
+
+            $(this).children("div").css('display', 'none');
+            $(this).children("a.active").css('border', 'none');
+
+            $(this).children("a.active").css('background-color', '');
+        })
+        
+        
+        $('.left_navbar>ul').mouseover(function(){
+          
+            console.log('1');
+            $(this).children("li").children("div").css('display', 'block');
+        })
+        $('.left_navbar>ul').mouseout(function(){
+            $(this).children("li").children("div").css('display','none');
+            console.log('gone');
+        })
+    });
 </script>
+
+
+
+
+
+<!--[if lte IE 7]>
+    <script>
+        if (!document.getElementsByClassName) {
+            document.getElementsByClassName = function (className, element) {
+                var children = (element || document).getElementsByTagName('*');
+                var elements = new Array();
+                for (var i = 0; i < children.length; i++) {
+                    var child = children[i];
+                    var classNames = child.className.split(' ');
+                    for (var j = 0; j < classNames.length; j++) {
+                        if (classNames[j] == className) {
+                            elements.push(child);
+                            break;
+                        }
+                    }
+                }
+                return elements;
+            };
+        }
+     var oUl=document.getElementsByClassName("show");
+        
+        console.log(oUl[1].lastChild.lastChild);
+        for(var i=0;i<oUl.length;i++){
+           
+            (function(i){  
+                oUl[i].onmouseover=function () {
+                oUl[i].lastChild.lastChild.style.display='block';
+                    console.log(i);
+            }
+            oUl[i].onmouseout=function () {
+                oUl[i].lastChild.lastChild.style.display='none';
+                    console.log(i);
+            }
+         })(i)
+         
+        }  
+</script>
+<![end if]-->
+
+
 
 </html>
