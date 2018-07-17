@@ -248,7 +248,7 @@
             <div class="head"></div>
             <div class="head_underline"></div>
             <div class="left_navbar">
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">家用电器</a>
                     </li>
@@ -535,11 +535,8 @@
                             </li>
                         </ul>
                     </div></li>
-                    
-
-
                 </ul>
-                <ul class="show">
+                <ul>
                     <li>
                         <a href="">手机</a>
                     </li>
@@ -837,7 +834,7 @@
                     
 
                 </ul>
-                <ul class="show">
+                <ul>
                     <li>
                         <a href="">电脑</a>
                     </li>
@@ -846,7 +843,7 @@
                         <a href="">办公</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">家居</a>
                     </li>
@@ -863,7 +860,7 @@
                         <a href="">厨具</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">男装</a>
                     </li>
@@ -880,7 +877,7 @@
                         <a href="">内衣</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">美妆</a>
                     </li>
@@ -893,7 +890,7 @@
                         <a href="">宠物</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">女鞋</a>
                     </li>
@@ -910,7 +907,7 @@
                         <a href="">珠宝</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">男鞋</a>
                     </li>
@@ -923,7 +920,7 @@
                         <a href="">户外</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul>
                     <li>
                         <a href="">房产</a>
                     </li>
@@ -936,7 +933,7 @@
                         <a href="">汽车用品</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">母婴</a>
                     </li>
@@ -945,7 +942,7 @@
                         <a href="">玩具乐器</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">食品</a>
                     </li>
@@ -962,7 +959,7 @@
                         <a href="">特产</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul>
                     <li>
                         <a href="">艺术</a>
                     </li>
@@ -975,7 +972,7 @@
                         <a href="">绿植</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">医药保健</a>
                     </li>
@@ -984,7 +981,7 @@
                         <a href="">计生情趣</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul>
                     <li>
                         <a href="">图书</a>
                     </li>
@@ -997,7 +994,7 @@
                         <a href="">电子书</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul>
                     <li>
                         <a href="">机票</a>
                     </li>
@@ -1014,7 +1011,7 @@
                         <a href="">生活</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul>
                     <li>
                         <a href="">理财</a>
                     </li>
@@ -1031,7 +1028,7 @@
                         <a href="">保险</a>
                     </li>
                 </ul>
-                <ul class="show">
+                <ul >
                     <li>
                         <a href="">安装</a>
                     </li>
@@ -1239,48 +1236,6 @@
     });
 </script>
 
-
-
-
-
-<!--[if lte IE 7]>
-    <script>
-        if (!document.getElementsByClassName) {
-            document.getElementsByClassName = function (className, element) {
-                var children = (element || document).getElementsByTagName('*');
-                var elements = new Array();
-                for (var i = 0; i < children.length; i++) {
-                    var child = children[i];
-                    var classNames = child.className.split(' ');
-                    for (var j = 0; j < classNames.length; j++) {
-                        if (classNames[j] == className) {
-                            elements.push(child);
-                            break;
-                        }
-                    }
-                }
-                return elements;
-            };
-        }
-     var oUl=document.getElementsByClassName("show");
-        
-        console.log(oUl[1].lastChild.lastChild);
-        for(var i=0;i<oUl.length;i++){
-           
-            (function(i){  
-                oUl[i].onmouseover=function () {
-                oUl[i].lastChild.lastChild.style.display='block';
-                    console.log(i);
-            }
-            oUl[i].onmouseout=function () {
-                oUl[i].lastChild.lastChild.style.display='none';
-                    console.log(i);
-            }
-         })(i)
-         
-        }  
-</script>
-<![end if]-->
 
 
 

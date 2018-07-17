@@ -205,7 +205,7 @@
              
     }
     .left_navbarContent .left_navbar>ul>li{
-       padding: 0px 7px;      
+       padding: 0px 5px;      
     }
 
     .left_navbarContent .left_navbar>ul>li>a{
@@ -238,6 +238,7 @@
         background-color: white;
         -webkit-box-shadow:1px 1px 5px #ccc,-1px -1px 5px #ccc;
                 box-shadow:1px 1px 5px #ccc,-1px -1px 5px #ccc;
+        display: none;
         
     }
     .left_navbarContent .left_navbar .showLeft_navbar>ul{
@@ -255,14 +256,7 @@
         color: #777777; 
         font-size: 14px;
     }
-    .left_navbarContent .left_navbar .showLeft_navbar1{
-        display:block;
-    }
-    .left_navbarContent .left_navbar .showLeft_navbar2{
-        display:none;
-    }
-   
-    
+
 
     .middle_content{
         width: 810px;
