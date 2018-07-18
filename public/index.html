@@ -1131,7 +1131,7 @@
 
                         <div class="huanying">
                             <div>HI~欢迎来到京东</div>
-                            <div>
+                            <div class="log_re">
                                 <a href="">登录</a>
                                 <a href="">注册</a>
                             </div>
@@ -1145,19 +1145,20 @@
                     <div class="board">
                         <div class="board_nav">
                             <a href="">促销</a>
-                            <a href="">公告</a>
                             <span></span>
+                            <a href="">公告</a>
+                            
                             <a href="">更多</a>
                         </div>
 
-                        <ul>
+                        <ul id="cuxiao">
                             <li>京东1111京东1111</li>
                             <li>京东1111京东1111</li>
                             <li>京东1111京东1111</li>
                             <li>京东1111京东1111</li>
                         </ul>
 
-                        <ul>
+                        <ul id="gonggao" style="display:none;">
                             <li>京东2222京东2222</li>
                             <li>京东2222京东2222</li>
                             <li>京东2222京东2222</li>
@@ -1283,7 +1284,7 @@
         $('.lunbo_circle>span').mouseout(function () {
             timer = setInterval(lunboF, 2000);   
         })
-         $('.lunbo>img').mouseover(function(){
+        $('.lunbo>img').mouseover(function(){
         clearInterval(timer);
         })
         $('.lunbo>img').mouseout(function(){
@@ -1301,7 +1302,7 @@
         initLunbo();   
         lunboChange();
       })
-    $('.lunbo_np').children('span:eq(1)').click(function () {
+          $('.lunbo_np').children('span:eq(1)').click(function () {
         clearInterval(timer);
         index++;
         if (index == 3) {
@@ -1329,7 +1330,6 @@
         lunbo.children('img:eq(' + index + ')').css('display', 'block');
             
        }
-
        function lunboF() {
             initLunbo();
             lunboChange();
@@ -1337,10 +1337,24 @@
             if (index == 3) {
                 index = 0;
             }
-                console.log('我开着额');
+                // console.log('我开着额');
         }
         lunbo_circle.children('span:eq(0)').css('backgroundColor','white');
         timer=setInterval(lunboF,2000);
+
+$('.board_nav').children('a:eq(0)').mouseover(function(){
+    $('#cuxiao').css('display','block');
+    $('#gonggao').css('display','none');
+})
+$('.board_nav').children('a:eq(1)').mouseover(function(){
+    $('#gonggao').css('display','block');
+    $('#cuxiao').css('display','none');
+
+    console.log('22');
+})
+
+
+        
     });
 </script>
 

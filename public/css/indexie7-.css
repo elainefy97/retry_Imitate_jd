@@ -3,6 +3,9 @@
         margin: 0;
         padding: 0;
         }
+        body{
+            background-color:#f0f3ef;
+        }
         a{
             text-decoration: none;
         }
@@ -153,7 +156,7 @@
         }
         .middle{
             width: 1190px;
-            background-color: aqua;
+         
             margin: 0 auto;
             
             
@@ -429,11 +432,11 @@
            
         }
         .middle_bottom{
-            height: 480px;
+            height: 500px;
             width: 810px;
-            background-color:palegoldenrod;
+            background-color:#f0f3ef;
            float: left;
-           margin-top: 20px;
+           margin-top: 30px;
     
         }
         .middle_bottom .lunbo{
@@ -501,17 +504,20 @@
             float: left;
             margin-top: 10px;
         }
+        .middle_bottom .lunbo_right img:hover{
+            filter:alpha(opacity=80);
+        }
         .right_navbar{
             height:450px;
             width: 190px;
-            background-color:orange;
+         
             float:right;
             position: relative;
             top: 20px;
             
         }
         .head{
-            background-color: bisque;
+            background-color: white;
             width: 190px;
             height: 180px;
         }
@@ -536,13 +542,17 @@
         .head .huanying{
             width: 190px;
             height: 50px;
-            
             position: relative;
-           
             top: 10px;
-    
-            
+            color: #787874;
         }
+        .head .huanying .log_re a{
+            color: #999;
+        }
+        .head .huanying .log_re a:hover{
+            color: red;
+        }
+        
         .head .huanying div{
             margin: 0 auto;
             text-align: center;
@@ -568,15 +578,25 @@
             width: 190px;
             height: 120px;
             overflow: hidden;
-            background-color: #ccc;
+            background-color: white;
         }
         .board .board_nav{
             width: 190px;
             height: 20px;
-            background-color: blue;
+            background-color: white;
+           
+        }
+        .board .board_nav span{
+            float: left;
+            width: 1px;
+            height: 20px;
+            background-color:#999;
            
         }
         .board .board_nav>a{
+            margin-left: 8px;
+            margin-right: 5px;
+            color: #787874;
             float: left;
             
         }
@@ -587,9 +607,12 @@
             float: right;
             
         }
-        
+        .board .board_nav>a:last-of-type:hover{
+            border:none;
+            color: red;
+        }
         .board ul li{
-            margin: 5px 0px;
+            margin: 5px 10px;
         }
         .space_hr{
             
@@ -601,7 +624,7 @@
         .picNav{
             width: 190px;
             height: 200px;
-            background-color: blue;
+            background-color: white;
         }
         .picNav>ul{
             float: left;
@@ -612,13 +635,22 @@
         .picNav li{
             padding: 5px;
             margin-top: 15px;
+            color: #787874;
         }
-        .picNav li>a{
+        .picNav ul>li>a{
             position: relative;
             top:20px;
             left: -22px;
+            color: #787874;
+         
         }
-       
+        .picNav li>a:last-of-type{
+            left: -28px;
+          
+        }
+        .picNav ul>li>a:hover{
+            color: red;
+        }
         
       
         
