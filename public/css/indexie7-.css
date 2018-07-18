@@ -28,7 +28,7 @@
            margin: 0 auto;
            /* margin-top: -5px; */
            position: relative;
-           
+           z-index: 999;
            
         }
         .navbar .top_navbar,.navbar .top_navbar>ul{
@@ -127,26 +127,26 @@
             background-color: red;
         }
         .navbar .showMyjd{
-            left:5px;
+            left:1px;
             width: 195px;
             height: 85px;
             display: none;
         }
         
         .navbar .showComshop{
-            left:5px;
+            left:1px;
             width: 170px;
             height: 60px; 
             display: none;
         }
         .navbar .showClientserver{
-            left:5px;
+            left:1px;
             width: 170px;
             height: 65px;
             display: none;
         }
         .navbar .showWebnav{
-            left:5px;
+            left:1px;
             width: 155px;
             height: 65px;
             display: none;
@@ -269,61 +269,137 @@
             height: 550px;
             background-color:palegreen;
             float: left;
-    
+            
         }
         /* .middle_top */
         .middle_top{
             height: 150px;
             width: 1000px;
-            background-color:pink;
+            background-color:#f0f3ef;
             
         
         }
         .middle_top .part1{
             width: 850px;
             height: 100px;
-            background-color: cadetblue;
+            background-color:#f0f3ef;
             
             float: right;
+            position: relative;
+            top: 25px;
+            
         }
         .middle_top .part1 .search {
             width: 535px;
-            height: 45px;
+            height: 40px;
             float: left;
-            background-color: red;
+            background-color:#f0f3ef;
+            
         }
         .middle_top .part1 .search input{
             width: 450px;
-            height: 45px;
+            height: 40px;
             float: left;
+           
+            border:#ccc solid 1px;
+        }
+        .middle_top .part1 .search .cam_mag{
+            width: 80px;
+            height: 50px;
+           float: left;
+           position: relative;
+           left: -35px;
+           top: 0px;
+          
+        }
+        .middle_top .part1 .search .camera{
+            
+            width: 25px;
+            height: 19px;
+            float: left;
+            position: relative;
+            background-image: none;
+            top:10px;
+            filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/camera1.png',  sizingMethod='scale');
+
+        }
+        .middle_top .part1 .search .magnify{
+            width: 40px;
+            height: 40px;
+            float: left;
+            margin-left: 10px;
+            background-image: none;
+            background-color: red;
+            filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/search_icon.png',  sizingMethod='scale');
+
         }
         .middle_top .part1 .cart{
             width: 200px;
-            height: 45px;
+            height: 40px;
             background-color: white;
             float: left;
-            margin-left: -20px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 40px;
+            
            
         }
+        .middle_top .part1 .cart>span:first-of-type{
+           color: red;
+            position: relative;
+            width: 100px;
+            height: 22px;
+        }
+        .middle_top .part1 .cart>span>span{
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            border-radius:50%;
+            background-color: red;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 15px;
+            behavior:url('PIE.htc');
+        }
+        .middle_top .part1 .cart .cartPic{
+            float: left;
+            position: relative;
+            top: 11px;
+            left:50px;
+           
+            width: 23px;
+            height: 22px;
+            background-image: url(../image/cart.png);
+           
+        }
+
         .middle_top .part1 .erwei{
             width: 70px;
             height: 70px;
             background-color: white;
             background-image: url(../image/mobile_qrcode.png);
             float: right;
+            position: relative;
+            top: -25px
             
         }
         .middle_top .part1 .under_searchnav{
             
             width: 500px;
             height: 30px;
-            background-color: #ccc;
+            background-color:#f0f3ef;
             
         }
         .middle_top .part1 .under_searchnav a{
             
-            color: red;
+            color: #aaaaaa;
             font-size: 10px;
+            
+        }
+        .middle_top .part1 .under_searchnav a:hover{
+            
+            color: red;
+           
             
         }
         .middle_top .part2 {
@@ -332,8 +408,15 @@
             float: left;
             position: relative;
             top: 20px;
-            background-color: #999;
+            background-color:#f0f3ef;
             
+            
+        }
+        .middle_top .part2 a{
+            color: #3c3c3c;
+        }
+        .middle_top .part2 a:hover{
+            color:red;
         }
         .middle_top .part2 a:first-of-type{
             margin-left: 50px;
@@ -342,7 +425,7 @@
         .middle_content .bottom{
            width: 1000px;
            height: 500px;
-           background-color: blue; 
+           background-color:#f0f3ef;
            
         }
         .middle_bottom{
@@ -381,7 +464,8 @@
             width: 190px;
             background-color:orange;
             float:right;
-    
+            position: relative;
+            top: 20px;
             
         }
         .head{

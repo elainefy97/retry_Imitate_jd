@@ -64,7 +64,7 @@
         font-size: 13px;
         position: relative;
         z-index:2;
-  
+        behavior:url('../ie/PIE.htc');  
     }
     .nav_space{
         float: right;
@@ -77,22 +77,21 @@
         
     }
   
-    .navbar .top_navbar>ul>li{
-        width: 100px;
-    }
     .navbar .top_navbar>ul>li:last-of-type{
         float: left;
         position: relative;
         left: 210px;
+     
+        behavior:url('PIE/PIE.htc');
     }
     .navbar .top_navbar>ul>li>a:last-of-type{
         height: 36px;
         
-
+        behavior:url('PIE/PIE.htc');
     }
     .navbar .top_navbar>ul>li:nth-of-type(7){
         width: 165px;
-  
+        behavior:url('PIE/PIE.htc');
     }
     
     .navbar .top_navbar a>span{
@@ -114,9 +113,6 @@
         width: 195px;
         height: 110px;
         display:none;
-        position: relative;
-        top: -3px;
-        left: 25px;
     }
     
     .navbar .showBeijing ul,.navbar .showMyjd ul,.navbar .showComshop ul,.navbar .showClientserver ul,.navbar .showWebnav ul{
@@ -127,7 +123,6 @@
     }
     .navbar .showBeijing li,.navbar .showMyjd li,.navbar .showComshop li,.navbar .showClientserver li,.navbar .showWebnav li{
         margin-top: 5px;
-        
     }
     .navbar .showBeijing ul li a,.navbar .showMyjd ul li a,.navbar .showComshop ul li a,.navbar .showClientserver ul li a,.navbar .showWebnav ul li a{
         padding: 5px 5px 4px 5px; 
@@ -136,26 +131,26 @@
         background-color: red;
     }
     .navbar .showMyjd{
-        left:7px;
+        left:3px;
         width: 195px;
         height: 85px;
         display: none;
     }
     
     .navbar .showComshop{
-        left:7px;
+        left:3px;
         width: 170px;
         height: 60px; 
         display: none;
     }
     .navbar .showClientserver{
-        left:7px;
+        left:3px;
         width: 170px;
         height: 65px;
         display: none;
     }
     .navbar .showWebnav{
-        left:7px;
+        left:3px;
         width: 155px;
         height: 65px;
         display: none;
@@ -244,7 +239,7 @@
         -webkit-box-shadow:1px 1px 5px #ccc,-1px -1px 5px #ccc;
                 box-shadow:1px 1px 5px #ccc,-1px -1px 5px #ccc;
         display: none;
-        
+        behavior:url('PIE.htc');
     }
     .left_navbarContent .left_navbar .showLeft_navbar>ul{
         margin-top: 30px;
@@ -309,15 +304,14 @@
       
     }
     .middle_top .part1 .search .camera{
-        
+            
         width: 25px;
         height: 19px;
         float: left;
         position: relative;
-
+        background-image: none;
         top:10px;
-        background-image: url(../image/camera1.png);
-        background-size:cover;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/camera1.png',  sizingMethod='scale');
 
     }
     .middle_top .part1 .search .magnify{
@@ -325,10 +319,9 @@
         height: 40px;
         float: left;
         margin-left: 10px;
-       
+        background-image: none;
         background-color: red;
-       background-image: url(../image/search_icon.png);
-       background-size:cover;
+        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../image/search_icon.png',  sizingMethod='scale');
 
     }
     .middle_top .part1 .cart{
@@ -357,8 +350,7 @@
         text-align: center;
         vertical-align: middle;
         line-height: 15px;
-      color: white;
-   
+        behavior:url('PIE.htc');
     }
     .middle_top .part1 .cart .cartPic{
         float: left;
@@ -465,7 +457,6 @@
         float:right;
         position: relative;
             top: 20px;
-
         
     }
     .head{
@@ -482,13 +473,13 @@
     .head .headPic img{
         position: relative;
         top: -5px;
-        border-radius: 50%;
+        border-radius:50%;
         width: 65px;
         height: 65px;
         border: 2px #999;
         -webkit-box-shadow: 2px 5px 10px #ccc;
                 box-shadow: 2px 5px 10px #ccc;
-        behavior:url('../ie/PIE.htc');
+                behavior:url('PIE.htc');
     }
     .head .huanying{
         width: 190px;
@@ -514,12 +505,13 @@
     }
 
     .head .huanying .head_btn a{
+        position: relative;
         padding: 5px 9px;
         background-color: red;
         border-radius: 20px;
         -webkit-box-shadow: 2px 5px 10px #999;
                 box-shadow: 2px 5px 10px #999;
-        behavior:url('../ie/PIE.htc');
+        behavior:url('PIE.htc');
     }
     .board {
         width: 190px;
