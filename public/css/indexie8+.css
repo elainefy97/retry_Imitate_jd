@@ -438,20 +438,65 @@
     .middle_bottom .lunbo{
         width: 580px;
         height: 470px;
-        overflow: hidden;
+        position: relative;
         float: left;
         margin-left: 13px;
         margin-right: 13px;
         margin-top: 10px;
+        overflow: hidden;
+        cursor: pointer;
     }
     .middle_bottom .lunbo img{
         width: 580px;
         height: 500px;
-        overflow: hidden;
         float: left;
-       
+        overflow: hidden;
     }
     
+    .middle_bottom .lunbo .lunbo_circle{
+        width: 100px;
+        height: 20px;
+
+        position: absolute;
+        top: 420px;
+        left:20px;
+    }
+    .middle_bottom .lunbo .lunbo_circle>span{
+         width: 12px;
+         height: 12px; 
+         margin-right: 10px;
+         border: white 2px solid;
+         border-radius: 50%;
+         position: relative;
+         padding: 0px 8px;
+ 
+    }
+   
+
+
+    
+    .middle_bottom .lunbo .lunbo_np{
+     
+        width: 580px;
+        height: 50px;
+        vertical-align: middle;
+        position: absolute;
+        top: 240px;
+        left:0px;
+    }
+    .middle_bottom .lunbo .lunbo_np>span:first-of-type{
+        float: left;
+        font-size: 50px;
+        margin-left: 20px;
+        color: white;
+    }
+    .middle_bottom .lunbo .lunbo_np>span:last-of-type{
+        float: right;
+        font-size: 50px;
+        margin-right: 20px;
+        color: white;
+    }
+
     .middle_bottom .lunbo_right img{
         width: 190px;
         height:auto;
